@@ -1,0 +1,18 @@
+## Project Structure ##
+
+fake-review-detection/
+│── data/
+│── preprocessing.py
+│── feature_extraction.py
+│── model.py
+│── evaluation.py
+│── visualization.py
+│── app.py
+│── README.md
+
+
+## Libraries ##
+import re
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
